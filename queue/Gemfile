@@ -25,6 +25,7 @@
 #--------------------------------------------------------------------------
 source "https://rubygems.org"
 
-gemspec name: "azure-storage"
+gemspec name: "azure-storage-queue"
 
+gem "azure-storage-common", path: "../common"
 gem "coveralls", require: false
