@@ -24,7 +24,7 @@
 # THE SOFTWARE.
 #--------------------------------------------------------------------------
 source "https://rubygems.org" do
-  gem "faraday",             "~> 2.0", :require => false
+  gem "faraday",             "~> 2.1", :require => false
   gem "faraday-follow_redirects", "~> 0.3.0", :require => false
   gem "faraday-net_http_persistent", "~> 2.0", :require => false
   gem "net-http-persistent", "~> 4.0", :require => false
